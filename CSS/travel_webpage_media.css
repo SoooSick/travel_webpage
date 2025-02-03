@@ -1,0 +1,296 @@
+@media screen and (min-width:0px) and (max-width:400px) {
+    
+    * {
+        margin: 0%;
+        font-size: 10px;
+    }
+
+    .head-image {
+        height: 70vh;
+    }
+
+    .text-container {
+        padding-top: 20vh;
+        box-sizing: border-box;
+    }
+
+    .memories-container {
+
+        height: 30vh;
+        justify-content: space-around;
+        color: white;
+        box-sizing: border-box;
+        padding: 25px 10px;
+    }
+    .memoreies-text {
+        font-size: 3rem;
+        color: white;
+        width: 100%;
+        /* background-color: aqua; */
+        /* padding-top: 1rem; */
+        box-sizing: border-box;
+    }
+
+    .plan-container {
+        width:30%;
+        padding: 1rem 1rem;
+        box-sizing: border-box;
+        /* display: none; */
+    }
+
+    .plan-text {
+        font-size: 1.3rem;
+        color: white;
+        border-bottom: 5px solid yellow;
+        width: 100%;
+        /* display: none; */
+    }
+
+
+    .scroll-text {
+
+        display: none;
+    }
+
+    .popular_destn_layout, .trending_destn_layout {
+        padding: 2rem 1rem;
+        box-sizing: border-box;
+    }
+
+    .pop-image-cont {
+        width: 100%;
+        margin: 1rem 0rem;
+    }
+
+    .pop-image-sett {
+        width: 100%;
+        height: 40vh;
+        border-radius: 20px;
+    }
+
+    .pop_name_text1 {
+        text-align: center;
+        font-size: 3rem;
+        padding-top: 30vh;
+        color: white;
+    }
+    
+
+
+    .about-us-container {
+        width: 100%;
+        /* padding-top: 3rem; */
+        box-sizing: border-box;
+    }
+
+    .abt-cont {
+        width: 100%;
+        /* padding: 1rem; */
+        /* margin-bottom: 1rem; */
+        background-color: rgba(127, 255, 212, 0.274);
+        box-sizing: border-box;
+    }
+
+    .about-us-head {
+        width: 100%;
+        background: linear-gradient(to bottom, rgba(255, 192, 203, 0.235) 50%, white 35%);
+        padding: 1rem;
+        box-sizing: border-box;
+    
+    }
+
+    .abt-cont {
+        width: 100%;
+        /* padding: 0rem 2rem; */
+        background-color: rgba(127, 255, 212, 0.274);
+        box-sizing: border-box;
+    }
+    .about-us-image {
+        background: url(/Images/mountain_ph.jpeg) center center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 50vh;
+    }
+
+    .about-us-desc {
+        width: 100%;
+        /* background-color: blue; */
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    /* .about-us-desc>h1 {
+        
+    } */
+
+    .travel_text {
+        font-size: 3rem;
+        padding: 1rem 0rem;
+        box-sizing: border-box;
+    }
+
+    .explore_btn {
+        padding: 1rem 0rem;
+    }
+
+    .explore_btn>a>button {
+        width: 40%;
+        height: 6vh;
+
+    }
+
+    .social_media {
+        margin-top: 1rem;
+        padding: 1rem 0rem;
+        font-size: 50rem;
+
+    }
+
+
+    /* ---------------------------------------Trending Destinations--------------------------- */
+
+    .trending_destn_layout {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .trend_image_cont {
+        width: 100%;
+        margin: 1rem;
+       }
+
+    .tr_imgset {
+    width: 100%;
+    height: 40vh;
+    padding-left: 1rem;
+    }   
+
+    .trend_name_text1 {
+        font-size: 3rem;
+        padding-top: 25vh;
+    }
+    
+    .trend_name_text2 {
+        padding-top: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    /* -------------------------------------------------------------Testimonal----------------------------------- */
+
+    .testimonial-head {
+        width: 100%;
+        background: linear-gradient(to top,white 60%, rgba(255, 192, 203, 0.235) 40%);
+        padding: 1rem;
+        box-sizing: border-box;
+        }
+
+    .testimonial-image {
+        background: url(/Images/f6s0PhT-winter-snow-scenes-wallpaper.jpg ) center center no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 50vh;
+        }
+
+    .testimonial-desc {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+    /* font-size: 2rem; */
+    /* background-color: antiquewhite; */
+    }    
+
+    .testimonial-desc_txt>h1{
+        font-size: 2rem;
+    }
+
+    .t_review {
+        padding-top: 1rem;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        /* font-weight: bold; */
+    }
+
+    .t_reviewer_nm {
+        padding-top: 1rem;
+
+    }
+
+    .rev_icon {
+
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        /* background-color: black; */
+    }
+    
+    .rev_name1 {
+        font-size: 1.2rem;
+    }
+
+    /* -----------------------------------------------------------footer-------------------------------------- */
+
+/* ---------------------------------------------Images-----------------------------------------------    */
+
+
+    .img_card1 {
+        width: 40%;
+        padding: 1rem;
+    }
+
+    .img_sett_ft {
+        width: 100%;
+        height: 25vh; 
+    }
+
+    .img_layout{
+        width: 100%;
+        justify-content: space-around;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    /* ---------------------------foot_info----------------- */
+
+    .foot_main-layout {
+        width: 100%;
+        box-sizing: border-box;
+        justify-content: space-around;
+        padding: 1rem;
+        color: white;
+    }
+
+    .inf_text>h3{
+        margin-left: 1rem;
+    }
+
+    /* .inf_text>ul>li {
+        padding-left: 0rem;
+    } */
+
+    .logo_icon {
+        width: 100%;
+        height: 5vh;
+        /* background-color: antiquewhite; */
+        box-sizing: border-box;
+    }
+
+    .inf_text {
+        width: 50%;
+        height: 10vh;
+        box-sizing: border-box;
+        /* line-height: 1rem; */
+        padding-bottom: 12rem;
+    
+    }
+
+    /* .info_text>h {
+        padding-left: 5rem;
+        box-sizing: border-box;
+    } */
+
+    .social_icon {
+        padding: 1rem;
+        justify-content: space-around;
+        font-size: 1.5rem;
+        color: orange;
+    }
+}

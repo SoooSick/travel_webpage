@@ -1,0 +1,517 @@
+* {
+    margin: 0%;
+}
+
+.header-layout {
+    width: 100%;
+
+}
+
+.head-image {
+    background: linear-gradient(rgba(0, 123, 255, 0.5), #a52a2a00, rgba(0, 0, 255, 0.253)), url(/Images/beach-landscape-sea-coast-water-nature-738236-pxhere.com.jpg) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 110vh;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 30px;
+    height: 10vh;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(0, 0, 255, 0.635), rgba(255, 255, 255, 0));
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+.nav-allign {
+
+    padding: 15px 0px 0px;
+    box-sizing: border-box;
+}
+
+.desc {
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+.desc>ul>li {
+    display: inline;
+    list-style: none;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+.desc>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.account {
+    color: white;
+}
+
+.account>a {
+    text-decoration: none;
+    color: white;
+}
+
+.text-container {
+    padding-top: 60vh;
+    box-sizing: border-box;
+}
+
+.plan-container {
+    width: 35%;
+    padding: 8rem 4rem;
+    box-sizing: border-box;
+}
+
+.plan-text {
+    font-size: 1.3rem;
+    color: white;
+    border-bottom: 5px solid yellow;
+    width: 30%;
+}
+
+.memories-container {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 55, 255, 0.432));
+    width: 65%;
+    height: 40vh;
+    justify-content: space-around;
+    color: white;
+    box-sizing: border-box;
+    padding: 25px 10px;
+}
+
+.scroll-text {
+    transform: rotate(-90deg);
+    /* background-color: aliceblue; */
+    width: 30%;
+    /* height: 20vh; */
+    padding: 100px 60px;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+.arrow {
+    border: 2px solid white;
+    border-radius: 12px;
+    padding: 2px 9px;
+    box-sizing: border-box;
+}
+
+.memoreies-text {
+    font-size: 3rem;
+    color: white;
+    width: 70%;
+    /* background-color: aqua; */
+    padding-top: 5rem;
+    box-sizing: border-box;
+}
+
+/* ----------------------------Popular Destination-------------------------------- */
+
+.popular_destn_container,
+.trending_destn_container {
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: aqua; */
+
+}
+
+.popular_destn_layout,
+.trending_destn_layout {
+    padding: 5rem 10rem;
+    box-sizing: border-box;
+}
+
+.popular_text_container,
+.trending_text_container {
+    margin-bottom: 1rem;
+
+}
+
+.popular_text1 {
+    font-size: 2rem;
+
+}
+
+.popular_text2 {
+    font-size: 3rem;
+}
+
+/*------------------------------------ card container -------------------------*/
+.pop-card-container {
+    width: 100%;
+    /* padding-left: 5rem; */
+    box-sizing: border-box;
+
+}
+
+.pop-card-layout {
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.pop-image-cont {
+    width: 30%;
+}
+
+.pop-image-cont>a {
+    text-decoration: none;
+}
+
+.pop-image-sett {
+    width: 100%;
+    height: 60vh;
+    border-radius: 20px;
+}
+
+.pop-image1 {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.217)), url(/Images/west_canada.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.pop-image2 {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.217)), url(/Images//switzerland_mountain.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.pop-image3 {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.217)), url(/Images/Sweden_mountain-snow-river-valley-snowy_peak-spring.jpg);
+    background-size: cover;
+}
+
+.pop_name_text1 {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 40vh;
+    color: white;
+}
+
+.pop_name_text2 {
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* ------------------------------------About-us------------------------- */
+.about-us-container {
+    width: 100%;
+    padding-top: 3rem;
+    box-sizing: border-box;
+}
+
+.about-us-layout {
+    width: 100%;
+}
+
+
+.about-us-head {
+    width: 90%;
+    background: linear-gradient(to bottom, rgba(255, 192, 203, 0.235) 65%, white 35%);
+    padding: 8rem 8rem 5rem;
+    box-sizing: border-box;
+
+}
+
+.abt-cont {
+    width: 50%;
+    /* padding: 0rem 2rem; */
+    background-color: rgba(127, 255, 212, 0.274);
+    box-sizing: border-box;
+}
+
+.about-us-image {
+    background: url(/Images/mountain_ph.jpeg) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+
+.about-us-desc {
+    width: 50%;
+    /* background-color: blue; */
+    padding-left: 4rem;
+    box-sizing: border-box;
+}
+
+.travel_text {
+    font-size: 3rem;
+    padding: 1rem 0rem;
+    box-sizing: border-box;
+}
+
+.vision_text {
+    font-size: 1.5rem;
+    padding: 1rem 0rem;
+}
+
+.explore_btn {
+    padding: 3rem 0rem;
+}
+
+.explore_btn>a>button {
+    width: 50%;
+    height: 8vh;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.explore_btn>a>button:hover {
+    width: 50%;
+    height: 8vh;
+    border-radius: 40px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.social_media {
+    margin-top: 3rem;
+    padding: 3rem 0rem;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+.facebook {
+    width: 50%;
+    /* background-color: aqua; */
+}
+
+.insta {
+    width: 50%;
+    /* background-color: beige; */
+}
+
+.social_num_text {
+    font-size: 2rem;
+}
+
+/* ---------------------------------------Trending Destinations--------------------------- */
+
+.trending_destn_layout {
+    padding: 5rem 2rem 5rem 10rem;
+}
+
+.trend_image_container {
+    width: 100%;
+}
+
+.trending_image_layout {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.trend_image_cont {
+    width: 48%;
+}
+
+.tr_imgset {
+    width: 100%;
+    height: 60vh;
+    padding-left: 2rem;
+}
+
+.trend_img1 {
+    background: linear-gradient(to right, rgba(165, 42, 42, 0.116), rgba(0, 0, 255, 0.075)), url(/Images/beach-landscape-sea-coast-water-nature-1331178-pxhere.com.jpg) center center no-repeat;
+    background-size: cover;
+
+}
+
+.trend_img2 {
+    background: linear-gradient(to right, rgba(0, 128, 0, 0.112), rgba(0, 110, 255, 0.021)), url(/Images/beach-landscape-sea-coast-ocean-horizon-744318-pxhere.com.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.trend_image_cont>a {
+    text-decoration: none;
+    color: white;
+}
+
+.trend_name_text1 {
+    font-size: 3rem;
+    padding-top: 40vh;
+}
+
+.trend_name_text2 {
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+}
+
+/* -------------------------------------------------------------Testimonal----------------------------------- */
+
+.testimonial-head {
+    width: 90%;
+    background: linear-gradient(to top, white 60%, rgba(255, 192, 203, 0.235) 40%);
+    padding: 8rem 8rem 5rem;
+    box-sizing: border-box;
+}
+
+.testimonial-image {
+    background: url(/Images/f6s0PhT-winter-snow-scenes-wallpaper.jpg ) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+
+.testimonial-desc {
+    width: 50%;
+    padding-left: 4rem;
+    box-sizing: border-box;
+    /* background-color: antiquewhite; */
+}
+
+.t_review {
+    padding-top: 3.5rem;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    /* font-weight: bold; */
+}
+
+.t_reviewer_nm {
+    padding-top: 2rem;
+
+}
+
+.rev_icon {
+
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    /* background-color: black; */
+
+}
+
+.icon_img {
+    background: url(/Images/OIP.jpeg) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.rev_name_f {
+    margin-left: 2rem;
+}
+
+.rev_name1 {
+    font-size: 1.7rem;
+}
+
+.rev_name2 {
+    color: gray;
+}
+
+/* -----------------------------------------------------------footer-------------------------------------- */
+
+/* ---------------------------------------------Images-----------------------------------------------    */
+
+.img_container {
+    width: 100%;
+    background-color: black;
+}
+
+.img_layout {
+    width: 100%;
+    justify-content: space-around;
+    padding: 3rem;
+    box-sizing: border-box;
+}
+
+.img_card1 {
+    width: 20%;
+}
+
+.img_sett_ft {
+    width: 100%;
+    height: 50vh;
+}
+
+.card_img1 {
+    background: url(/Images/forest-nature-sunbeam-trees-reflection-iz.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.card_img2 {
+    background: url(/Images/R.jpeg) center center no-repeat;
+    background-size: cover;
+}
+
+.card_img3 {
+    background: url(/Images/uUqxVHp.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.card_img4 {
+    background: url(/Images/1163657.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+/* ---------------------------foot_info----------------- */
+
+.foot_main_container {
+    width: 100%;
+    background-color: black;
+    border-top: 1px solid rgb(73, 70, 70);
+}
+
+.foot_main-layout {
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-around;
+    padding: 5rem 1rem;
+    color: white;
+}
+
+.logo_icon {
+    width: 25%;
+    height: 30vh;
+    /* background-color: antiquewhite; */
+    box-sizing: border-box;
+}
+
+.inf_text>h3 {
+    margin-left: 2rem;
+}
+
+.inf_text {
+    width: 16%;
+    height: 30vh;
+    box-sizing: border-box;
+    line-height: 2rem;
+
+}
+
+.inf_text>ul {
+    list-style: none;
+}
+
+.bl_logo {
+    padding: 1rem 7rem;
+
+}
+
+.social_icon {
+    padding: 1rem 5rem;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    color: orange;
+}
