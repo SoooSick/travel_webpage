@@ -187,12 +187,12 @@
 }
 
 .pop-image2 {
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.217)), url('/Images/switzerland_mountain.jpg') center center no-repeat;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.217)), url('Images/switzerland_mountain.jpg') center center no-repeat;
     background-size: cover;
 }
 
 .pop-image3 {
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.217)), url('/Images/Sweden_mountain-snow-river-valley-snowy_peak-spring.jpg');
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.217)), url('Images/Sweden_mountain-snow-river-valley-snowy_peak-spring.jpg');
     background-size: cover;
 }
 
@@ -238,7 +238,7 @@
 }
 
 .about-us-image {
-    background: url('/Images/mountain_ph.jpeg') center center no-repeat;
+    background: url('Images/mountain_ph.jpeg') center center no-repeat;
     background-size: cover;
     width: 100%;
     height: 80vh;
@@ -331,13 +331,13 @@
 }
 
 .trend_img1 {
-    background: linear-gradient(to right, rgba(165, 42, 42, 0.116), rgba(0, 0, 255, 0.075)), url('/Images/beach-landscape-sea-coast-water-nature-1331178-pxhere.com.jpg') center center no-repeat;
+    background: linear-gradient(to right, rgba(165, 42, 42, 0.116), rgba(0, 0, 255, 0.075)), url('Images/beach-landscape-sea-coast-water-nature-1331178-pxhere.com.jpg') center center no-repeat;
     background-size: cover;
 
 }
 
 .trend_img2 {
-    background: linear-gradient(to right, rgba(0, 128, 0, 0.112), rgba(0, 110, 255, 0.021)), url('/Images/beach-landscape-sea-coast-ocean-horizon-744318-pxhere.com.jpg') center center no-repeat;
+    background: linear-gradient(to right, rgba(0, 128, 0, 0.112), rgba(0, 110, 255, 0.021)), url('Images/beach-landscape-sea-coast-ocean-horizon-744318-pxhere.com.jpg') center center no-repeat;
     background-size: cover;
 }
 
@@ -366,7 +366,7 @@
 }
 
 .testimonial-image {
-    background: url('/Images/f6s0PhT-winter-snow-scenes-wallpaper.jpg') center center no-repeat;
+    background: url('Images/f6s0PhT-winter-snow-scenes-wallpaper.jpg') center center no-repeat;
     background-size: cover;
     width: 100%;
     height: 80vh;
@@ -401,7 +401,7 @@
 }
 
 .icon_img {
-    background: url('/Images/OIP.jpeg') center center no-repeat;
+    background: url('Images/OIP.jpeg') center center no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -446,22 +446,22 @@
 }
 
 .card_img1 {
-    background: url('/Images/forest-nature-sunbeam-trees-reflection-iz.jpg') center center no-repeat;
+    background: url('Images/forest-nature-sunbeam-trees-reflection-iz.jpg') center center no-repeat;
     background-size: cover;
 }
 
 .card_img2 {
-    background: url('/Images/R.jpeg') center center no-repeat;
+    background: url('Images/R.jpeg') center center no-repeat;
     background-size: cover;
 }
 
 .card_img3 {
-    background: url('/Images/uUqxVHp.jpg') center center no-repeat;
+    background: url('Images/uUqxVHp.jpg') center center no-repeat;
     background-size: cover;
 }
 
 .card_img4 {
-    background: url('/Images/1163657.jpg') center center no-repeat;
+    background: url('Images/1163657.jpg') center center no-repeat;
     background-size: cover;
 }
 
