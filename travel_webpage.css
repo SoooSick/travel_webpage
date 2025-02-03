@@ -182,7 +182,7 @@
 }
 
 .pop-image1 {
-    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.217)), url(/Images/west_canada.jpg) center center no-repeat;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.217)), url('Images/west_canada.jpg') center center no-repeat;
     background-size: cover;
 }
 
