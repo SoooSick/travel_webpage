@@ -8,7 +8,7 @@
 }
 
 .head-image {
-    background: linear-gradient(rgba(0, 123, 255, 0.5), #a52a2a00, rgba(0, 0, 255, 0.253)), url(/Images/beach-landscape-sea-coast-water-nature-738236-pxhere.com.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 123, 255, 0.5), #a52a2a00, rgba(0, 0, 255, 0.253)), url('./Images/beach-landscape-sea-coast-water-nature-738236-pxhere.com.jpg') center center no-repeat;
     background-size: cover;
     width: 100%;
     height: 110vh;
